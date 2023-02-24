@@ -229,6 +229,8 @@ GameObject:
   - component: {fileID: 863356056}
   - component: {fileID: 863356055}
   - component: {fileID: 863356054}
+  - component: {fileID: 863356059}
+  - component: {fileID: 863356058}
   m_Layer: 0
   m_Name: BottomCube
   m_TagString: Untagged
@@ -314,6 +316,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &863356058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863356053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5c634349eacf074687d4456dc2d0bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &863356059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863356053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89a4764b8bad704d965cdf33c8f904e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helloWorld: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +439,7 @@ GameObject:
   - component: {fileID: 1712941050}
   - component: {fileID: 1712941049}
   - component: {fileID: 1712941054}
+  - component: {fileID: 1712941055}
   m_Layer: 0
   m_Name: TopCube
   m_TagString: Untagged
@@ -521,3 +549,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abeb49dac8c2a3947a4469f4ba1eb9c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1712941055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712941048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f4922801220f642bf3fe1660afba42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 5
