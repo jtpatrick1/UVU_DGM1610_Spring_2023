@@ -5,13 +5,18 @@ using UnityEngine;
 
 public class AwakeAndStart : MonoBehaviour
 {
+    public int ammoCount;
+    public int enemyHealth;
     void Awake()
     {
         Debug.Log("It's Alive!!!");
+        ammoCount = 10;
+        enemyHealth = 3;
     }
 
-    private void Start()
+    void Start()
     {
-        Debug.Log("It's Starting.");
+        Debug.Log(ammoCount);
+        Debug.Log(enemyHealth);
     }
 }
